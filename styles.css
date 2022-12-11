@@ -13,9 +13,9 @@ body {
 .sofashop__container {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    max-height: 100vh;
 
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .sofashop__navbar {

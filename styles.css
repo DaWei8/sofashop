@@ -13,7 +13,7 @@ body {
 .sofashop__container {
     position: relative;
     width: 100vw;
-    max-height: 100vh;
+    height: 100vh;
 
     overflow-x: hidden;
 }

@@ -156,12 +156,50 @@ body {
     top: 0;
 }
 
+.image-text {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    top: 31%;
+    left: 10%;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 140px;
+    height: 170px;
+
+    overflow-y: hidden;
+}
+
+.image-text .span1 {
+    letter-spacing: -7px;
+    color: #000A1E;
+    align-self: flex-start;
+
+}
+
+.image-text .span2 {
+    background: linear-gradient(180deg, #FDBF44 0%, #E48A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    align-self: flex-end;
+    position: absolute;
+    bottom: -45px;
+
+
+}
+
 .sofashop__product-count {
     position: absolute;
     z-index: 100;
     top: 75vh;
     right: 50px;
-    
+
     font-weight: 700;
     font-size: 150px;
     line-height: 140px;
